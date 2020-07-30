@@ -146,10 +146,10 @@
     unzipper "^0.10.10"
     url-join "^4.0.0"
 
-"@pact-foundation/pact-web@9.11.0":
-  version "9.11.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-web/-/pact-web-9.11.0.tgz#a6b7d929b481ac08a883f11e6933bdcb9e9c21bc"
-  integrity sha512-HaURmJvJyTo4JBxoGXsjjRnCf15bON7+hb07XhYmSpj/DR6iuMEXPMcEH4S/3L1mTeKCLVuVguaa8og6qsGtVA==
+"@pact-foundation/pact-web@9.11.1":
+  version "9.11.1"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-web/-/pact-web-9.11.1.tgz#9a5823a997936275c6acfbb62400c7a452cd37b4"
+  integrity sha512-C7ShBGza+qvMMCj6uaFxVjuvBwezbrEnyWidE3TwljKaOMfKyFHIY46Vd1co8DywJ2bGV0qBpa/m0nTkbcUysA==
 
 "@pact-foundation/pact@9.11.1":
   version "9.11.1"
