@@ -122,14 +122,14 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@pact-foundation/pact-node@^10.9.0":
-  version "10.9.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-node/-/pact-node-10.9.0.tgz#5a6d1c43442133e6018315e821b4cad2da785707"
-  integrity sha512-XwwuL09KzjieX4BxZZAystt5MY1j7LlLCT19e5W+rhp5MoE0Guw6BIP1kePzQGPM7jj9RlLNW3/H3QuyVaA9Yg==
+"@pact-foundation/pact-node@^10.9.7":
+  version "10.9.7"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact-node/-/pact-node-10.9.7.tgz#eacda3086dbe70659c9934ef5b7f2d3e2670bc80"
+  integrity sha512-AtrnA8S5VNsZ2E+PZ5cRNQipUzblnMgTUsWNNAIhK7ImNldcpq+uK765+FbS/AH+sT0NM6cz4nI/rhSWvtWJMw==
   dependencies:
     "@types/q" "1.0.7"
     "@types/request" "2.48.2"
-    bunyan "1.8.12"
+    bunyan "1.8.13"
     bunyan-prettystream "0.1.3"
     chalk "2.3.1"
     check-types "7.3.0"
@@ -151,18 +151,18 @@
   resolved "https://registry.yarnpkg.com/@pact-foundation/pact-web/-/pact-web-9.11.0.tgz#a6b7d929b481ac08a883f11e6933bdcb9e9c21bc"
   integrity sha512-HaURmJvJyTo4JBxoGXsjjRnCf15bON7+hb07XhYmSpj/DR6iuMEXPMcEH4S/3L1mTeKCLVuVguaa8og6qsGtVA==
 
-"@pact-foundation/pact@9.11.0":
-  version "9.11.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-9.11.0.tgz#f61932b04169d403d24af2a94c49f6a6e7adb999"
-  integrity sha512-CajlvVooPuX/sYy/88Lq17Pk7PbDRxHKmd4TvAPDAfZyP+Okl/EBVOoh2LXyr+fyg3SjYgAMTkWKxKueBbWAeQ==
+"@pact-foundation/pact@9.11.1":
+  version "9.11.1"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-9.11.1.tgz#f17d6bc7b9f8fb29138c91c3cfb04f7cd3d92ea3"
+  integrity sha512-Hp6VbKjnaBg18wdyDXAjzQfXyISUSa8747vKc/Aohj4XrJALMWnqZDfLJkjgz+3l6dmDRQN37gVoL8RG2GJRqg==
   dependencies:
-    "@pact-foundation/pact-node" "^10.9.0"
+    "@pact-foundation/pact-node" "^10.9.7"
     "@types/bluebird" "^3.5.20"
     "@types/bunyan" "^1.8.3"
     "@types/express" "^4.11.1"
     bluebird "~3.5.1"
     body-parser "^1.18.2"
-    bunyan "^1.8.12"
+    bunyan "^1.8.13"
     bunyan-prettystream "^0.1.3"
     cli-color "^1.1.0"
     es6-object-assign "^1.1.0"
@@ -172,7 +172,7 @@
     graphql-tag "^2.9.1"
     http-proxy "^1.18.1"
     http-proxy-middleware "^0.19.0"
-    lodash "^4.17.14"
+    lodash "^4.17.16"
     lodash.isfunction "3.0.8"
     lodash.isnil "4.0.0"
     lodash.isundefined "3.0.1"
@@ -1099,13 +1099,23 @@ bunyan-prettystream@0.1.3, bunyan-prettystream@^0.1.3:
   resolved "https://registry.yarnpkg.com/bunyan-prettystream/-/bunyan-prettystream-0.1.3.tgz#6c3b713266f6ad32007c7b6ab1e998a245349d98"
   integrity sha1-bDtxMmb2rTIAfHtqsemYokU0nZg=
 
-bunyan@1.8.12, bunyan@^1.8.12:
-  version "1.8.12"
-  resolved "https://registry.yarnpkg.com/bunyan/-/bunyan-1.8.12.tgz#f150f0f6748abdd72aeae84f04403be2ef113797"
-  integrity sha1-8VDw9nSKvdcq6uhPBEA74u8RN5c=
+bunyan@1.8.13:
+  version "1.8.13"
+  resolved "https://registry.yarnpkg.com/bunyan/-/bunyan-1.8.13.tgz#dde6bacd9ebccaedb110f1319f88db3f415ccfeb"
+  integrity sha512-4zO4iMxZeCpf+95ERsr83nwQr11o1KY2FLhX4wZ6kPXieIVYL3k9eX+N6vbHhFEK5h5O/qCQpfXt7N9VBAIvCA==
   optionalDependencies:
     dtrace-provider "~0.8"
     moment "^2.10.6"
+    mv "~2"
+    safe-json-stringify "~1"
+
+bunyan@^1.8.13:
+  version "1.8.14"
+  resolved "https://registry.yarnpkg.com/bunyan/-/bunyan-1.8.14.tgz#3d8c1afea7de158a5238c7cb8a66ab6b38dd45b4"
+  integrity sha512-LlahJUxXzZLuw/hetUQJmRgZ1LF6+cr5TPpRj6jf327AsiIq2jhYEH4oqUUkVKTor+9w2BT3oxVwhzE5lw9tcg==
+  optionalDependencies:
+    dtrace-provider "~0.8"
+    moment "^2.19.3"
     mv "~2"
     safe-json-stringify "~1"
 
@@ -3652,12 +3662,12 @@ lodash.once@^4.1.1:
   resolved "https://registry.yarnpkg.com/lodash.once/-/lodash.once-4.1.1.tgz#0dd3971213c7c56df880977d504c88fb471a97ac"
   integrity sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
 
-lodash@4.17.15, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15:
+lodash@4.17.15, lodash@^4.17.11, lodash@^4.17.15:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
-lodash@4.17.19:
+lodash@4.17.19, lodash@^4.17.16:
   version "4.17.19"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
@@ -4050,6 +4060,11 @@ moment@2.26.0:
   version "2.26.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.26.0.tgz#5e1f82c6bafca6e83e808b30c8705eed0dcbd39a"
   integrity sha512-oIixUO+OamkUkwjhAVE18rAMfRJNsNe/Stid/gwHSOfHrOtw9EhAY2AHvdKZ/k/MggcYELFCJz/Sn2pL8b8JMw==
+
+moment@^2.19.3:
+  version "2.27.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
+  integrity sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
