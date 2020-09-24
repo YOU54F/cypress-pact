@@ -125,10 +125,10 @@
   resolved "https://registry.yarnpkg.com/@pact-foundation/pact-web/-/pact-web-9.12.0.tgz#d998e2cfce54d83704202fe31c92a1dcfe3033d0"
   integrity sha512-FcpNgF0bpyDaV8wWJSG25+BRw78Aef6oy3uN6L4zgknC5+zmAKplXds0erPe/Rd0fz3bV+btUuTmFxcpgLcJXw==
 
-"@pact-foundation/pact@9.12.0":
-  version "9.12.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-9.12.0.tgz#a53f30cb8ae676fa4daee2a839e41f9f5e4a2fba"
-  integrity sha512-NGfgRzPRmErhNGhOFbrzNpLuLaSSHf+0kYBVQL6cZ2sPH42yp8u8UJ0YhrdEGqWCwDrFZyqb4P9KFCqCPWPRDA==
+"@pact-foundation/pact@9.12.1":
+  version "9.12.1"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-9.12.1.tgz#0db544ffaf1f43d9c628c75356598e98c3c7b3c7"
+  integrity sha512-YJ4/MINCSxzrNGHUvYdLdSOPN5IY01UlBJGeFrCQdLoE40vNyyFxzch67r5OTU5tRdZxpgtCvibXnTJPdzoA5Q==
   dependencies:
     "@pact-foundation/pact-node" "^10.10.1"
     "@types/bluebird" "^3.5.20"
