@@ -125,15 +125,15 @@
   resolved "https://registry.yarnpkg.com/@pact-foundation/pact-web/-/pact-web-9.14.0.tgz#413b5797e3fcdbd9a0191c8417721928f3b94743"
   integrity sha512-WfcKPSjioYlriQ03JJswmRDjouSrIXDEo2yd8G3bWbn9100Kkp14lrWuaEL7emJkfqWNBWGN+8cKnPqoWPbcJQ==
 
-"@pact-foundation/pact@9.14.0":
-  version "9.14.0"
-  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-9.14.0.tgz#9805d9556bc75b050b79a12b60a7aa66cff49e60"
-  integrity sha512-7wQEHCI1XRcMTJa74KueCfCEL7M+bYtk1TBkGpBSlIdvGSTvdSgiizyQTGBKXRPZhgU694yjssV7xEbUhjMdkA==
+"@pact-foundation/pact@9.14.1":
+  version "9.14.1"
+  resolved "https://registry.yarnpkg.com/@pact-foundation/pact/-/pact-9.14.1.tgz#63d8f339ff778283a83da736f1e72551e2019d85"
+  integrity sha512-5M9colzfsBi+ZaRqAm/YrFsJC/yslmWqGhGDkt4eC6upfs3psF4g8B82fHhAl+oj68lhURhQVxBZz/Nsic2ZqQ==
   dependencies:
     "@pact-foundation/pact-node" "^10.10.1"
     "@types/bluebird" "^3.5.20"
     "@types/bunyan" "^1.8.3"
-    "@types/express" "^4.11.1"
+    "@types/express" "^4.17.11"
     bluebird "~3.5.1"
     body-parser "^1.18.2"
     bunyan "^1.8.13"
@@ -141,7 +141,7 @@
     cli-color "^1.1.0"
     es6-object-assign "^1.1.0"
     es6-promise "^4.1.1"
-    express "^4.16.3"
+    express "^4.17.1"
     graphql "^14.0.0"
     graphql-tag "^2.9.1"
     http-proxy "^1.18.1"
@@ -232,13 +232,23 @@
     "@types/node" "*"
     "@types/range-parser" "*"
 
-"@types/express@^4.11.1":
-  version "4.17.3"
-  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.3.tgz#38e4458ce2067873b09a73908df488870c303bd9"
-  integrity sha512-I8cGRJj3pyOLs/HndoP+25vOqhqWkAZsWMEmq1qXy/b/M3ppufecUwaK2/TVDVxcV61/iSdhykUjQQ2DLSrTdg==
+"@types/express-serve-static-core@^4.17.18":
+  version "4.17.18"
+  resolved "https://registry.yarnpkg.com/@types/express-serve-static-core/-/express-serve-static-core-4.17.18.tgz#8371e260f40e0e1ca0c116a9afcd9426fa094c40"
+  integrity sha512-m4JTwx5RUBNZvky/JJ8swEJPKFd8si08pPF2PfizYjGZOKr/svUWPcoUmLow6MmPzhasphB7gSTINY67xn3JNA==
+  dependencies:
+    "@types/node" "*"
+    "@types/qs" "*"
+    "@types/range-parser" "*"
+
+"@types/express@^4.17.11":
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.11.tgz#debe3caa6f8e5fcda96b47bd54e2f40c4ee59545"
+  integrity sha512-no+R6rW60JEc59977wIxreQVsIEOAYwgCqldrA/vkpCnbD7MqTefO97lmoBe4WE0F156bC4uLSP1XHDOySnChg==
   dependencies:
     "@types/body-parser" "*"
-    "@types/express-serve-static-core" "*"
+    "@types/express-serve-static-core" "^4.17.18"
+    "@types/qs" "*"
     "@types/serve-static" "*"
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
@@ -285,6 +295,11 @@
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.0.7.tgz#afd4c610f16f6386d320e0738ec38ba7d3431917"
   integrity sha512-0WS7XU7sXzQ7J1nbnMKKYdjrrFoO3YtZYgUzeV8JFXffPnHfvSJQleR70I8BOAsOm14i4dyaAZ3YzqIl1YhkXQ==
+
+"@types/qs@*":
+  version "6.9.5"
+  resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.5.tgz#434711bdd49eb5ee69d90c1d67c354a9a8ecb18b"
+  integrity sha512-/JHkVHtx/REVG0VVToGRGH2+23hsYLHdyG+GrvoUGlGAd0ErauXDyvHtRI/7H7mzLm+tBCKA7pfcpkQ1lf58iQ==
 
 "@types/range-parser@*":
   version "1.2.3"
@@ -2272,7 +2287,7 @@ expand-brackets@^2.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-express@^4.16.3:
+express@^4.17.1:
   version "4.17.1"
   resolved "https://registry.yarnpkg.com/express/-/express-4.17.1.tgz#4491fc38605cf51f8629d39c2b5d026f98a4c134"
   integrity sha512-mHJ9O79RqluphRrcw2X/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7VoeUVqgb27xlEMXTnYt4g==
