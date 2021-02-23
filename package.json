@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@cypress/webpack-preprocessor": "5.6.0",
-    "@pact-foundation/pact": "9.15.0",
+    "@pact-foundation/pact": "9.15.1",
     "@pact-foundation/pact-web": "9.15.0",
     "@testing-library/cypress": "6.0.1",
     "@types/node": "10.17.54",
